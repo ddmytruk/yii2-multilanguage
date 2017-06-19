@@ -59,7 +59,7 @@ $ php yii migrate/up --migrationPath=@vendor/ddmytruk/yii2-multilanguage/migrati
 ## Виджет изменения языка
 
 ```
-use frontend\widgets\WLang;
+use ddmytruk\multilanguage\widgets\WLang;
  
 <?= WLang::widget();?> # view по умолчанию
  
