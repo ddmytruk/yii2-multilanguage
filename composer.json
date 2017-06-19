@@ -1,0 +1,26 @@
+{
+    "name": "ddmytruk/yii2-multilanguage",
+    "description": "Yii2 Multi language",
+    "keywords": ["yii2", "yii2-multilanguage", "Yii2 Multi Language", "Multi Language"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Dmytro Dmytruk",
+            "email": "d.dmytruk@icloud.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0.0",
+        "yiisoft/yii2-swiftmailer": "^2.0.0",
+        "ddmytruk/yii2-core": "@dev",
+        "ddmytruk/yii2-mailer": "@dev"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "ddmytruk\\multilanguage\\": ""
+        }
+    }
+}
