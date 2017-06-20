@@ -34,7 +34,7 @@ $ php yii migrate/up --migrationPath=@vendor/ddmytruk/yii2-multilanguage/migrati
 
 ```
 'request' => [
-       'class' => 'frontend\components\LangRequest'
+       'class' => 'ddmytruk\multilanguage\components\LangRequest'
    ],
 ```
 Переводы
